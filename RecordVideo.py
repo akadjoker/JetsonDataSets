@@ -201,7 +201,7 @@ class Controller:
                         self.handle_keyboard(key)
                 
         except KeyboardInterrupt:
-            print("\nPrograma interrompido pelo usuário")
+            print("\nPrograma interrompido")
         finally:
  
             self.car.set_speed(0)
